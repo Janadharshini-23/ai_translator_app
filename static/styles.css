@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; margin: 20px; background: #f7f7f7; }
+.container { max-width: 900px; margin: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+textarea { width: 100%; padding: 12px; font-size: 16px; box-sizing: border-box; }
+.translation-box { background: white; padding: 12px; min-height: 120px; border: 1px solid #ddd; }
+.sugg { padding: 6px; border-bottom: 1px solid #eee; cursor: pointer; }
+.sugg:hover { background: #f0f0f0; }
