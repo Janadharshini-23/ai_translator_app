@@ -6,7 +6,6 @@ import pyperclip
 st.set_page_config(page_title="AI Translator", page_icon="🌍", layout="centered")
 st.title("🌍 AI Translator")
 st.write("Translate text between multiple languages instantly.")
->>>>>>> c46de1e (Updated AI Translator with latest changes)
 
 # Language mapping
 languages = {
