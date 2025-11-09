@@ -62,4 +62,4 @@ with col4:
 
 st.markdown("---")
 st.caption("Made with ❤️ by Janadharshini,Gowshika,Jai akash,Dharshin kumar")
->>>>>>> c46de1e (Updated AI Translator with latest changes)
+
