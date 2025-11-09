@@ -57,7 +57,11 @@ with col3:
 with col4:
     if 'translated_text' in st.session_state:
         if st.button("Copy to Clipboard 📋"):
-            pyperclip.copy(st.session_state['translated_text'])
+            try:
+                pyperclip.copy(st.session_state['translated_text'])
+            except pyperclip.PyperclipException:
+                st.warning("Clipboard copy not available in this environment.")
+
             st.success("Copied translated text to clipboard!")
 
 st.markdown("---")
